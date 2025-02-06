@@ -15,16 +15,13 @@
   border-color: var(--ig-gray-500);
   border-width: 0px 0px 2px;
   border-style: solid;
-  z-index: 1;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: stretch;
   overflow: hidden;
-  top: 0;
-  position: sticky;
+  position: relative;
   padding: 16px;
   min-width: 50px;
-  flex-grow: 1;
   flex-shrink: 0;
 }
 .column-layout {
